@@ -15,15 +15,23 @@ Typography elements:
 Heading tag (content written inside is called children)
 Text and paragraph elements: bold, italics, etc.
 -->
+<!-- Adding reference point to CSS element - id,class,name -->
 <html>
     <head>
         <!-- CSS element is called here -->
+        <style>
+            /* # for id and . for class */
+            #Heading1{color:red; 
+            background:black;}
+            .test{color: teal;}
+            h4{color: royalblue;}
+        </style>
     </head>
     <title>Test</title>
     <meta name="description" content="test"/>
     <body>
-        <h1>Hello world</h1>
-        <h2 style="color:red">Hello world</h2>
+        <h1 id="Heading1">Hello world</h1>
+        <h2 class="test">Hello world</h2>
         <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Hello world</h3>
         <h4>Hello world</h4>
         <h5>Hello world</h5>
@@ -36,3 +44,8 @@ Text and paragraph elements: bold, italics, etc.
         <!-- java script element is called here -->
     </body>
 </html>
+<!--css property
+    JS scripting
+    Buttons and input types HTML
+    CSS styling
+    Cascading style sheet -->
