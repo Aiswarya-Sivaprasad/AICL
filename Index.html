@@ -18,14 +18,9 @@ Text and paragraph elements: bold, italics, etc.
 <!-- Adding reference point to CSS element - id,class,name -->
 <html>
     <head>
-        <!-- CSS element is called here -->
-        <style>
-            /* # for id and . for class */
-            #Heading1{color:red; 
-            background:black;}
-            .test{color: teal;}
-            h4{color: royalblue;}
-        </style>
+        <!-- CSS element is called here
+        # for id and . for class -->
+        <link href="style.css" rel="stylesheet"/>
     </head>
     <title>Test</title>
     <meta name="description" content="test"/>
@@ -41,6 +36,19 @@ Text and paragraph elements: bold, italics, etc.
         <u>Hello world</u>
         <p>qwertyuiopzxcvbnmlkjhgfdsa</p>
         <span>asdfghjkl</span>
+        <form>
+            <input type="text" placeholder="Enter your name" />
+            <input type="email" placeholder="Enter your email" />
+            <input type="tel" placeholder="Enter your phone number" />
+            <input type="file" placeholder="Enter your name" />
+            <input type="color" placeholder="Enter your name" />
+            <input type="date" placeholder="Enter your name" />
+            <input type="text" placeholder="Enter your name" />
+            <input type="number" placeholder="Enter your name" />
+            <button onclick="alert('I am here')">Submit1</button>
+        </form>
+        <button onclick="submit()">Submit2</button>
+        <script src="script.js"/></script>
         <!-- java script element is called here -->
     </body>
 </html>
